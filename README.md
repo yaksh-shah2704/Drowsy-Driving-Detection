@@ -15,12 +15,12 @@
 - Python 3.x <br>
 - Install the required libraries by running:<br>
 
-<b>```bash<b>
+<b>```bash<b><br>
 <i>pip install opencv-python imutils dlib pygame scipy</i>
 
-<h3>Files Required</h3> (both are placed in the project directory)
+<h3>Files Required <smmall>(both are placed in the project directory)</smmall></h3> 
 <b>
-shape_predictor_68_face_landmarks.dat: A pre-trained Dlib model for detecting facial landmarks.
+shape_predictor_68_face_landmarks.dat: A pre-trained Dlib model for detecting facial landmarks. <br>
 beep.mp3: The sound file to play when drowsiness is detected.</b>
 
 <h4>Setup</h4>
@@ -28,9 +28,7 @@ beep.mp3: The sound file to play when drowsiness is detected.</b>
     <li>Clone the repository to your local machine:</li>
     git clone https://github.com/yaksh-shah2704/Drowsy-Driving-Detection.git<br>
     cd Drowsy-Driving-Detection
-
     <li>Make sure to have the shape_predictor_68_face_landmarks.dat file in the same directory as your script.</li>
-
     <li>Install the required dependencies (as mentioned in the "Requirements" section).</li>
 </ol>
 
@@ -49,6 +47,6 @@ beep.mp3: The sound file to play when drowsiness is detected.</b>
 Low frame rate: Try reducing the resolution of the webcam capture or use a faster machine.<br>
 Drowsiness not detected properly: Adjust the EAR threshold value in the code as per the testing scenario.<br>
 
-
+<hr>
 <h3>Author: Yaksh Shah</h3>
 <b>GitHub: https://github.com/yaksh-shah2704</b>
